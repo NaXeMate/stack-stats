@@ -52,5 +52,6 @@ jobs:
             echo "No changes to stats.svg — skipping commit."
           else
             git commit -m "chore: update language stats [skip ci]"
+            git pull --rebase origin main
             git push
           fi
