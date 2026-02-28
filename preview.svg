@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  width="495" height="184"
+  viewBox="0 0 495 184"
+  role="img"
+  aria-label="Top programming languages — preview">
+
+  <title>Top Languages — Preview</title>
+
+  <style>
+    .card      { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+    .title     { font: 600 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #00D9FF; }
+    .updated   { font: 400 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #484f58; }
+    .lang-name { font: 500 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #c9d1d9; }
+    .lang-pct  { font: 600 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #8b949e; }
+  </style>
+
+  <defs>
+    <clipPath id="bar-clip">
+      <rect x="20" y="52" width="455" height="10" rx="5" />
+    </clipPath>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="495" height="184" rx="6" ry="6" class="card" />
+
+  <!-- Title -->
+  <text x="20" y="30" class="title">⚡ Languages Used</text>
+
+  <!-- Last updated -->
+  <text x="475" y="30" class="updated" text-anchor="end">Updated Feb 28, 2026</text>
+
+  <!-- Stacked bar background track -->
+  <rect x="20" y="52" width="455" height="10" rx="5" fill="#21262d" />
+
+  <!-- Stacked bar segments (clipped to rounded track) -->
+  <!-- TypeScript 40%  JavaScript 22%  Solidity 12%  Shell 8%  CSS 6%  HTML 5%  Python 3%  Dockerfile 2%  YAML 1%  Makefile 1% -->
+  <g clip-path="url(#bar-clip)">
+    <rect x="20.00"   y="52" width="182.00" height="10" fill="#3178c6" />
+    <rect x="202.00"  y="52" width="100.10" height="10" fill="#f1e05a" />
+    <rect x="302.10"  y="52" width="54.60"  height="10" fill="#AA6746" />
+    <rect x="356.70"  y="52" width="36.40"  height="10" fill="#89e051" />
+    <rect x="393.10"  y="52" width="27.30"  height="10" fill="#563d7c" />
+    <rect x="420.40"  y="52" width="22.75"  height="10" fill="#e34c26" />
+    <rect x="443.15"  y="52" width="13.65"  height="10" fill="#3572A5" />
+    <rect x="456.80"  y="52" width="9.10"   height="10" fill="#384d54" />
+    <rect x="465.90"  y="52" width="4.55"   height="10" fill="#cb171e" />
+    <rect x="470.45"  y="52" width="4.55"   height="10" fill="#427819" />
+  </g>
+
+  <!-- Legend — Row 0 -->
+  <g transform="translate(20, 76)">
+    <circle cx="5" cy="5" r="5" fill="#3178c6" />
+    <text x="14" y="9" class="lang-name">TypeScript</text>
+    <text x="14" y="9" class="lang-pct" dx="72">40.00%</text>
+  </g>
+  <g transform="translate(171.67, 76)">
+    <circle cx="5" cy="5" r="5" fill="#f1e05a" />
+    <text x="14" y="9" class="lang-name">JavaScript</text>
+    <text x="14" y="9" class="lang-pct" dx="72">22.00%</text>
+  </g>
+  <g transform="translate(323.33, 76)">
+    <circle cx="5" cy="5" r="5" fill="#AA6746" />
+    <text x="14" y="9" class="lang-name">Solidity</text>
+    <text x="14" y="9" class="lang-pct" dx="57.6">12.00%</text>
+  </g>
+
+  <!-- Legend — Row 1 -->
+  <g transform="translate(20, 98)">
+    <circle cx="5" cy="5" r="5" fill="#89e051" />
+    <text x="14" y="9" class="lang-name">Shell</text>
+    <text x="14" y="9" class="lang-pct" dx="36">8.00%</text>
+  </g>
+  <g transform="translate(171.67, 98)">
+    <circle cx="5" cy="5" r="5" fill="#563d7c" />
+    <text x="14" y="9" class="lang-name">CSS</text>
+    <text x="14" y="9" class="lang-pct" dx="28.8">6.00%</text>
+  </g>
+  <g transform="translate(323.33, 98)">
+    <circle cx="5" cy="5" r="5" fill="#e34c26" />
+    <text x="14" y="9" class="lang-name">HTML</text>
+    <text x="14" y="9" class="lang-pct" dx="36">5.00%</text>
+  </g>
+
+  <!-- Legend — Row 2 -->
+  <g transform="translate(20, 120)">
+    <circle cx="5" cy="5" r="5" fill="#3572A5" />
+    <text x="14" y="9" class="lang-name">Python</text>
+    <text x="14" y="9" class="lang-pct" dx="50.4">3.00%</text>
+  </g>
+  <g transform="translate(171.67, 120)">
+    <circle cx="5" cy="5" r="5" fill="#384d54" />
+    <text x="14" y="9" class="lang-name">Dockerfile</text>
+    <text x="14" y="9" class="lang-pct" dx="72">2.00%</text>
+  </g>
+  <g transform="translate(323.33, 120)">
+    <circle cx="5" cy="5" r="5" fill="#cb171e" />
+    <text x="14" y="9" class="lang-name">YAML</text>
+    <text x="14" y="9" class="lang-pct" dx="36">1.00%</text>
+  </g>
+
+  <!-- Legend — Row 3 -->
+  <g transform="translate(20, 142)">
+    <circle cx="5" cy="5" r="5" fill="#427819" />
+    <text x="14" y="9" class="lang-name">Makefile</text>
+    <text x="14" y="9" class="lang-pct" dx="57.6">1.00%</text>
+  </g>
+
+</svg>
