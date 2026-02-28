@@ -1,17 +1,13 @@
 # stack-stats
 
-<div align="center">
-    <img src="https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js" alt="Node.js" />
-    <img src="https://img.shields.io/badge/GitHub_Actions-Automated-2088FF?style=for-the-badge&logo=github-actions" alt="GitHub Actions" />
-    <img src="https://img.shields.io/badge/Output-SVG-F05138?style=for-the-badge&logo=svg" alt="SVG Output" />
-    <img src="https://img.shields.io/badge/Dependencies-Zero-00D9FF?style=for-the-badge" alt="Zero Dependencies" />
-    <img src="https://img.shields.io/badge/Private_Repos-Supported-8957E5?style=for-the-badge" alt="Private Repos" />
-    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
-</div>
+![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Automated-2088FF?style=for-the-badge&logo=github-actions)
+![Output](https://img.shields.io/badge/Output-SVG-F05138?style=for-the-badge&logo=svg)
+![Dependencies](https://img.shields.io/badge/Dependencies-Zero-00D9FF?style=for-the-badge)
+![Private Repos](https://img.shields.io/badge/Private_Repos-Supported-8957E5?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-<p align="center">
-    <i>Self-hosted GitHub Action that generates a language stats SVG card from all your repositories — public and private — with no third-party servers or npm dependencies.</i>
-</p>
+<i>Self-hosted GitHub Action that generates a language stats SVG card from all your repositories — public and private — with no third-party servers or npm dependencies.</i>
 
 <div align="center">
     <img src="preview.svg" alt="stack-stats preview" width="100%" />
